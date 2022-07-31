@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: honeydew;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px 20px;
+}
+.nav-item{
+    margin: 0px 10px;
+    color: white;
+}
+nav>.nav-item-active{
+    background-color: white;
+    padding: 6px 8px;
+    margin: 0px 10px;
+    color: #2827CC;
+}
+nav>.nav-item{
+    margin-top: 5px;
+    margin: 5px 20px;
+}
+header{
+    background-color: #2827CC;
+    height: 450px;
+}
+.logo{
+    height: 35px;
+    margin-left: 50px;
+}
+.header-text>img{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.header-image{
+    top: 90px;
+    left: 900px;
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    border-radius: 20px;
+}
+.header-text>h2{
+    font-size: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.header-text>p{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    color: white;
+}
+.companies{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.company-items{
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+}
+.api{
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.api-heading{
+    line-height: 34px;
+    margin-left: 50px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.card-active{
+    border: 1px solid white;
+    height: 210px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 3px 3px 10px 10px gray;
+}
+.card-logo{
+    margin: 15px 12px;
+}
+.card-head-active{
+    margin: 10px 12px;
+    color: #5A20CB;
+}
+.card-body{
+    margin: 8px 10px;
+}
+.card{
+    border: 1px solid white;
+    height: 210px;
+    width: 200px;
+    background-color: white;
+    /* box-shadow: 3px 3px 10px 10px gray; */
+}
+.card-head{
+    margin: 10px 12px;
+    color: black;
+}
+.blog-heading{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.blog-cards{
+    margin-top: 30px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.blog-card{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.blog-content{
+    height: 270px;
+    width: 300px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.blog-content>h6{
+    margin: 10px 10px;
+    margin-left: 20px;
+    color: #5A20CB;
+    font-size: 16px;
+}
+.blog-content>h3{
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.blog-content>p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.blog-image{
+    position: relative;
+   
+}
+.faq-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #CAD5E2;
+}
+.faq-content>h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.faq-content>h4{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.faq-content>button{
+    color: white;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #5A20CB;
+}
+.faq-image>img{
+    height: 300px;
+    width: 600px;
+    border-radius: 200px 0px 0px 0px;
+}
+.download-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+   
+}
+.download-content>h1>span{
+font-size: 28px;
+margin: 0px 10px;
+font-weight: 100
+}
+.download-email{
+    background-color: #CAD5E2;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+.download-email>form>input{
+   padding: 10px 20px;
+   border-radius: 20px;
+   background-color: #CAD5E2;
+   border: none;
+}
+.download-email>form>button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #5A20CB;
+ }
+
+ .footer-section{
+    margin-top: 100px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5A20CB;
+ }
+ .footer-left{
+    margin-top: 50px;
+  }
+  .footer-right{
+    margin-top: 28px;
+
+  }
+.footer-logo{
+    height: 40px;
+    width: 90px;
+    margin-left: 50px;
+}  
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.list-items{
+    color: white;
+    margin: 10px 20px;
+}
+.footer-logos{
+    margin: 0px 20px;
+}
+.logos-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.logos-list{
+    margin-top: 26px;
+}
