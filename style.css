@@ -5,6 +5,7 @@
 }
 body{
    background-color: honeydew;
+   font-family: Montserrat;
 }
 nav{
     display: flex;
@@ -89,8 +90,8 @@ header{
 }
 .card-active{
     border: 1px solid white;
-    height: 210px;
-    width: 200px;
+    height: 240px;
+    width: 210px;
     background-color: white;
     box-shadow: 3px 3px 10px 10px gray;
 }
@@ -106,8 +107,8 @@ header{
 }
 .card{
     border: 1px solid white;
-    height: 210px;
-    width: 200px;
+    height: 240px;
+    width: 210px;
     background-color: white;
     /* box-shadow: 3px 3px 10px 10px gray; */
 }
@@ -120,6 +121,7 @@ header{
     margin-left: 100px;
 }
 .blog-cards{
+    /* position: relative; */
     margin-top: 30px;
     margin-left: 100px;
     display: flex;
@@ -130,6 +132,11 @@ header{
     display: flex;
     flex-direction: row;
     
+}
+.blog-image>img{
+    height: 270px;
+    width: 230px;
+     border-radius: 50px 0px 0px 0px;
 }
 
 .blog-content{
@@ -156,8 +163,46 @@ header{
     font-size: 15px;
 }
 .blog-image{
-    position: relative;
-   
+    /* position: relative;   */
+}
+.blog-image>img{
+    height: 270px;
+    width: 230px; 
+    margin-left: 0px;
+}
+.blog-image1>img{
+    height: 270px;
+    width: 230px; 
+    margin-left: 70px;
+}
+.blog-author{
+    position: absolute;
+     top: 705px;
+     left: 210px;
+}
+.blog-author1{
+    position: absolute;
+     top: 705px;
+     left: 540px;
+}
+.blog-bottom{
+    position: absolute;
+    top: 1410px;
+    left: 350px;
+}
+.blog-bottom1{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+.blog-card-bottom-image{
+    
+}
+.blog-card-bottom-image1{
+    position: absolute;
+     top: 1380px;
+     left: 1020px;
+     
 }
 .faq-section{
     display: flex;
@@ -259,4 +304,306 @@ font-weight: 100
 }
 .logos-list{
     margin-top: 26px;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px 5px;
+    }
+    .nav-item{
+        margin: 0px 5px;
+        color: white;
+        font-size: 10px;
+    }
+    nav>.nav-item-active{
+        background-color: white;
+        padding: 3px 6px;
+        margin: 0px 10px;
+        color: #2827CC;
+        font-size: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    .header-text>img{
+       display: none;
+    }
+    .header-text>h2{
+        font-size: 20px;
+        margin-left: 50px;
+        color: white;
+    }
+    .header-text>p{
+        font-size: 10px;
+        margin-top: 15px;
+        margin-left: 50px;
+        color: white;
+    }
+    .header-image{
+        top: 250px;
+        left: 50px;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        border-radius: 20px;
+    }
+    .companies{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .company-items{
+        text-decoration: none;
+        margin: 5px 10px;
+        font-size: 10px;
+        font-weight: 800;
+        color: black;
+    }
+    .api{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .api-heading{
+        line-height: 10px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .card-active{
+        border: 1px solid white;
+        height: 160px;
+        width: 110px;
+        background-color: white;
+        box-shadow: 3px 3px 10px 10px gray;
+    }
+    .card-logo{
+        margin: 8px 10px;
+        height: 20px;
+        width: 20px;
+    }
+    .card-head-active{
+        margin: 5px 8px;
+        color: #5A20CB;
+        font-size: 12px;
+    }
+    .card-body{
+        margin: 4px 6px;
+        font-size: 10px;
+    }
+    .card{
+        border: 1px solid white;
+        height: 160px;
+        width: 110px;
+        background-color: white;
+        /* box-shadow: 3px 3px 10px 10px gray; */
+        margin: 10px 0px;
+    }
+    .card-head{
+        margin: 5px 8px;
+        color: black;
+        font-size: 12px;
+    }
+    .blog-heading{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .blog-heading>h1{
+        font-size: 11px;
+    }
+    .blog-cards{
+        margin-top: 10px;
+        margin-left: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .blog-image>img{
+        height: 120px;
+        width: 100px;
+         border-radius: 50px 0px 0px 0px;
+    }
+    .blog-image1>img{
+        margin-top: 28px;
+        height: 120px;
+        width: 100px;
+         border-radius: 50px 0px 0px 0px;
+         margin-left: 0px;
+    }
+    .blog-content{
+        position: relative;
+        height: 120px;
+        width: 140px;
+        border: 1px solid white;
+        background-color: white;
+        box-shadow: 1px 1px 10px 1px gray;
+    }
+    .blog-content>h6{
+        margin: 5px 4px;
+        margin-left: 10px;
+        color: #5A20CB;
+        font-size: 8px;
+    }
+    .blog-content>h3{
+        margin-left: 10px;
+        font-size: 10px;
+        
+    }
+    .blog-content>p{
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    .blog-content1{
+        margin-top: 30px;
+        
+    }
+    .blog-author{
+        position: absolute;
+         top: 623px;
+         left: 100px;
+         font-size: 6px;
+    }
+    .blog-author1{
+        position: absolute;
+        top: 773px;
+        left: 100px;
+        font-size: 6px;
+    }
+    .blog-card-bottom-image{
+        position: absolute;
+         top: 1250px;
+         left: 170px;
+         height: 20px;
+         width: 20px;
+    }
+    .blog-card-bottom-image1{
+        position: absolute;
+         top: 1404px;
+         left: 170px;
+         height: 20px;
+         width: 20px;
+    }
+    .faq-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 30px;
+        background-color: #CAD5E2;
+    }
+    .faq-content>h2{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .faq-content>h4{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 9px;
+    }
+    .faq-content>button{
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 5px 10px;
+        border: none;
+        background-color: #5A20CB;
+        font-size: 8px;
+    }
+    .faq-image>img{
+        height: 100px;
+        width: 200px;
+        border-radius: 200px 0px 0px 0px;
+    }
+    .download-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .download-content>h1{
+        font-size: 15px;
+        margin: 0px 5px;
+        font-weight: 900
+        }
+    .download-content>h1>span{
+        font-size: 11px;
+        margin: 0px 5px;
+        font-weight: 100
+        }
+        .download-email{
+            background-color: #CAD5E2;
+            padding: 2px 2px;
+            border-radius: 20px;
+        }
+        .download-email>form>input{
+           padding: 5px 10px;
+           border-radius: 20px;
+           background-color: #CAD5E2;
+           border: none;
+        }
+        .download-email>form>button{
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            background-color: #5A20CB;
+         }
+         .footer-section{
+            margin-top: 50px;
+            padding: 20px 0px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: #5A20CB;
+         }
+         .footer-left{
+            margin-top: 10px;
+          }
+          .footer-right{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        
+          }
+        .footer-logo{
+            height: 20px;
+            width: 50px;
+            margin-left: 20px;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+            margin-top: 10px;
+        }
+        .list-items{
+            color: white;
+            margin: 5px 10px;
+            font-size: 10px;
+        }
+        .footer-logos{
+            height: 15px;
+            width: 15px;
+            margin: 0px 20px;
+        }
+        .logos-list{
+            display: flex;
+            flex-wrap: wrap;
+            list-style-type: none;
+        }
+        .logos-list{
+            margin-top: 16px;
+            font-size: 10px;
+        }
 }

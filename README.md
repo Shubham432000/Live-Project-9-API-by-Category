@@ -4,7 +4,7 @@
 
 #### I have build a template of HTML and CSS Project using my core CSS skill
 
-> My Live Deployed Website Link [Website](https://lucent-gumdrop-699ce4.netlify.app)  
+> My Live Deployed Website Link [Website](https://gleeful-belekoy-1e7d82.netlify.app)  
 
 
 ![download (10)](https://user-images.githubusercontent.com/101961231/182020159-3145f1f4-0b34-4dc2-af0e-6d7ce88eb2dd.png)
